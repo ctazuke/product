@@ -9,5 +9,42 @@
   margin-right: 0px;
 }
 
+.my-container {
+  position: relative;
+  overflow: hidden;
+}
 
+.my-container h1 {
+  padding: 50px;
+  position: relative;
+  z-index: 2;
+}
 
+.my-container img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.4;
+}
+
+.indeximg {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.description  {
+  margin-top: 80px;
+}
+
+.beforefooter {
+  margin-top: 30px;
+}
+
+.footer {
+  background-color: tan;
+  color: #4d4d4d;
+}
